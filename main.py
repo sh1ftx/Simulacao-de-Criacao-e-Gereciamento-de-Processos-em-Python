@@ -1,6 +1,6 @@
 # ---------------------------------------------------------------------------------
 # Arquivo principal
-# Orquestra a execução do programa, exibindo a legenda e gerenciando subprocessos
+# Controla a execução do programa e exibe informações ao usuário
 # ---------------------------------------------------------------------------------
 
 from legend import printLegend
@@ -10,12 +10,12 @@ def main():
     """
     Função principal do programa.
     """
-    print("\n==== INÍCIO DO GERENCIAMENTO DE SUBPROCESSOS ====\n");
+    print("\n==== GERENCIADOR DE SUBPROCESSOS ====\n");
     
-    # Exibir a legenda com as cores e subprocessos
+    # Exibir a legenda
     printLegend();
     
-    # Gerenciar subprocessos (quantidade definida aqui)
+    # Gerenciar subprocessos
     manageSubProcesses(6);
     
     print("\n==== PROGRAMA ENCERRADO ====\n");
